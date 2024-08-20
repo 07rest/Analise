@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST STORE</title>
+    <link rel="stylesheet" href="site/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="logo-ctn">
+            <img src="site/logo.png" width="150px" height="150px">
+        </section>
+        <section class="nav-head">
+        <input type="text" placeholder="Pesquisar..." id="SearchId">
+        cadastrase
+        </section>
+    </header>
+    <main>
+        <nav>
+            <section class="nav-ctn">
+                <ul>
+                    <li><a href="site/prod.php">PRODUTOS</a></li>
+                    <li><a href="site/shapes.php">SHAPES</a></li>
+                    <li><a href="site/acess.php">ACESSÓRIOS</a></li>
+                </ul>
+            </section>
+        </nav>
+        <img src="site/imgprincipal.jpg" class="ctn-head">
+        <section class="prod-tranding">
+            <section id="prod1">
+                <img src="site/shape1.jpg">
+                <h1> Shape Creare</h1>
+                <p>R$ 159,00</p>
+                <button class="button-23" role="button">Comprar</button>
+            </section>
+            <section id="prod2">
+                <img src="site/shape2.webp">
+                <h1> Shape Element</h1>
+                <p>R$ 199,00</p>
+                <button class="button-23" role="button">Comprar</button>
+            </section>
+            <section id="prod3">
+                <img src="site/shape3.webp">
+                <h1> Shape Santa Cruz</h1>
+                <p>R$ 189,00</p>
+                <button class="button-23" role="button">Comprar</button>
+            </section>
+            <section id="prod4">
+                <img src="site/shape4.jpg">
+                <h1> Shape Schaar</h1>
+                <p>R$ 145,00</p>
+                <button class="button-23" role="button">Comprar</button>
+            </section>
+        </section>
+    </main>
+
+    <footer style="background-color: #000000; color: #fff; padding: 20px 0; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-around; flex-wrap: wrap;">
+            
+            <!-- Cadastro -->
+            <div style="margin-bottom: 20px;">
+                <h4 style="color: #a71313;">Cadastre-se</h4>
+                <p>Receba as últimas novidades e ofertas exclusivas.</p>
+                <form action="#" method="post">
+                    <wbr>
+                    <ul>
+                        <a href="Formulario.php" style="display: inline-block; padding: 10px 20px; background-color: #a71313; color: #333; text-decoration: none; border-radius: 5px; font-weight: bold;">
+                            Cadastre-se
+                        </a>
+                    </ul>
+                </form>
+            </div>
+            
+            <!-- Quem Somos -->
+            <div style="margin-bottom: 20px;">
+                <h4 style="color: #a71313;">Quem Somos</h4>
+                <p>A RestStore é uma loja dedicada aos amantes do skate, oferecendo os melhores produtos e equipamentos.</p>
+                <a href="/quem-somos" style="color: #a71313; text-decoration: none;">Saiba Mais</a>
+            </div>
+            
+            <!-- Contato -->
+            <div style="margin-bottom: 20px;">
+                <h4 style="color: #a71313;">Contato</h4>
+                <p>Email: <a href="mailto:contato@reststore.com" style="color: #a71313; text-decoration: none;">contato@reststore.com</a></p>
+                <p>Telefone: (45) 99999-8888</p>
+                <p>Endereço: Rua das Pistas, 123, Cascavel, PR</p>
+            </div>
+            
+        </div>
+        <div style="border-top: 1px solid #555; padding-top: 10px; margin-top: 20px;">
+            <p>&copy; 2024 RestStore. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
